@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>🌤️ Weather App</h1>
+
+  <!-- Controls -->
+  <div class="controls">
+    <label for="locationInput" class="sr-only">Enter location</label>
+    <input
+      type="text"
+      id="locationInput"
+      placeholder="Enter city, ZIP, or landmark"
+      title="Enter a location"
+    />
+    <button id="getWeatherBtn" title="Get weather for location">Get Weather</button>
+    <button id="geoBtn" title="Use your current location">Use My Location</button>
+    <span id="infoBtn" title="About this app">ℹ️</span>
+  </div>
+
+  <!-- Weather Display -->
+  <div id="weatherResult"></div>
+
+  <!-- Forecast -->
+  <h3>5‑Day Forecast</h3>
+  <div id="forecastWeather"></div>
+
+  <!-- Records -->
+  <button id="showRecordsBtn">Show Saved Weather Records</button>
+  <div id="savedRecords"></div>
+
+  <!-- About Section -->
+  <div id="about" class="hidden">
+    <strong>PM Accelerator:</strong>
+    Visit us at
+    <a href="https://www.linkedin.com/school/pmaccelerator" target="_blank" rel="noopener">LinkedIn</a>
+  </div>
+
+  <!-- Script -->
+  <script src="script.js"></script>
+</body>
+</html>

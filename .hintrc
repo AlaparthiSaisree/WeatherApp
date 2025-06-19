@@ -1,0 +1,13 @@
+{
+  "extends": [
+    "web-recommended"
+  ],
+  "hints": {
+    "meta-charset-utf-8": "off",
+    "disown-opener": "off",
+    "html-lang-require": "off",
+    "manifest-is-valid": "off",
+    "no-html-only-headers": "off",
+    "html-checker": "off"
+  }
+}
