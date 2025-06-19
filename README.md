@@ -119,7 +119,7 @@ weather-app/
 ## 🤝 Contact
 
 Saisree Alaparthi
-[LinkedIn](https://www.linkedin.com/in/saisreealaparthi)
+[LinkedIn](https://www.linkedin.com/in/alaparthi-saisree/)
 [saisree.alaparthi@gmail.com](mailto:saisree.alaparthi@gmail.com)
 
 ---
